@@ -14,7 +14,7 @@ var myChart = new Chart(ctx3, {
         data: [95, 30, 60, 50, 80, 91],
         fill: true,
         backgroundColor: gradient3,
-        borderColor: "blue",
+        borderColor: "white",
         borderWidth: 2,
         // pointStyle: false,
         lineTension: 0.2,
