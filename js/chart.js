@@ -30,16 +30,18 @@ var myChart = new Chart(ctx, {
                 suggestedMax: 100,
                 stepSize: 30,
                 ticks: {
+                    stepSize: 20, // Gridlar sonini kamaytirish (har 20 qadamda bir chiziq)
+          count: 5,
                     display: false,
-                    backdropColor: 'rgba(0, 0, 0, 0.1)',
+                    backdropColor: 'rgba(244,244,244,0.5)',
                 },
                 pointLabels: {
                     display: false
                 },
                 grid: {
-                    color: 'rgba(0, 0, 0, 0.1)',
-                    zIndex: 20,
-                    lineWidth: 3,
+                    color: 'rgba(0, 0, 0, 0.3)',
+                    z:1,
+                    lineWidth: 1,
                     padding: 10,
                 },
             }
